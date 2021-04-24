@@ -1,0 +1,4 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {C:/Users/Ben/Documents/Ensc 350/Final project 2/ExU/Simulation/ExU.mpf}
+# Loading project ExU
+do TimingExecUnit.do

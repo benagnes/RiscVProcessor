@@ -1,0 +1,116 @@
+# End time: 13:08:04 on Apr 17,2020, Elapsed time: 0:12:06
+# Errors: 0, Warnings: 2
+#----------------------------------------------------------------------------------------------------------
+# compile
+#----------------------------------------------------------------------------------------------------------
+# vcom -work work -2008 -explicit -stats=time,-cmd,msg ModelSim/ShiftUnit.vho
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:08:04 on Apr 17,2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Compiling entity ShiftUnit
+# -- Compiling architecture structure of ShiftUnit
+# End time: 13:08:05 on Apr 17,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vcom -work work -2008 -explicit -stats=time,-cmd,msg TBShiftUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:08:05 on Apr 17,2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TbShiftUnit
+# -- Compiling architecture behavioural of TbShiftUnit
+# End time: 13:08:05 on Apr 17,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -work work -2008 -explicit -stats=time,-cmd,msg ConfigExU.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:08:06 on Apr 17,2020
+# -- Loading package STANDARD
+# -- Compiling configuration FuncLUSim
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading entity TbLogicUnit
+# -- Loading architecture behavioural of TbLogicUnit
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Loading entity LogicUnit
+# -- Compiling configuration TimeLUSim
+# -- Loading entity TbLogicUnit
+# -- Loading architecture behavioural of TbLogicUnit
+# -- Loading entity LogicUnit
+# -- Compiling configuration FuncAUSim
+# -- Loading entity TbArithUnit
+# -- Loading architecture behavioural of TbArithUnit
+# -- Loading entity ArithUnit
+# -- Compiling configuration TimeAUSim
+# -- Loading entity TbArithUnit
+# -- Loading architecture behavioural of TbArithUnit
+# -- Loading entity ArithUnit
+# -- Compiling configuration FuncSUSim
+# -- Loading entity TbShiftUnit
+# -- Loading architecture behavioural of TbShiftUnit
+# -- Loading entity ShiftUnit
+# -- Compiling configuration TimeSUSim
+# -- Loading entity TbShiftUnit
+# -- Loading architecture behavioural of TbShiftUnit
+# -- Loading entity ShiftUnit
+# End time: 13:08:06 on Apr 17,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+#----------------------------------------------------------------------------------------------------------
+# Start the simulation
+#----------------------------------------------------------------------------------------------------------
+# vsim -t 100ps -gui work.TimeSUSim -sdftyp ../DUT=ModelSim/ShiftUnit.sdo
+# vsim -t 100ps -gui work.TimeSUSim -sdftyp ../DUT=ModelSim/ShiftUnit.sdo 
+# Start time: 13:08:06 on Apr 17,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading work.timesusim
+# Loading work.tbshiftunit(behavioural)
+# Loading work.shiftunit(structure)
+# Loading work.hard_block(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading instances from ModelSim/ShiftUnit.sdo
+# Loading timing data from ModelSim/ShiftUnit.sdo
+# ** Warning: Design size of 137367 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tbshiftunit File: TBShiftUnit.vhd
+# transcript off
+#----------------------------------------------------------------------------------------------------------
+# Simulation Run
+#----------------------------------------------------------------------------------------------------------
+# restart -f
+# Loading instances from ModelSim/ShiftUnit.sdo
+# Loading timing data from ModelSim/ShiftUnit.sdo
+# ** Warning: Design size of 68451 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tbshiftunit File: TBShiftUnit.vhd
+# run 16500 ns
+# ** Note: Using TestVectors from file SLL64Unit00.tvs
+#    Time: 15 ns  Iteration: 0  Instance: /tbshiftunit
+# ** Note: Simulation Completed
+#    Time: 15685 ns  Iteration: 0  Instance: /tbshiftunit
+# transcript off

@@ -1,0 +1,75 @@
+# End time: 22:34:32 on Apr 07,2020, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 0
+#----------------------------------------------------------------------------------------------------------
+# compile
+#----------------------------------------------------------------------------------------------------------
+# vcom -work work -2008 -explicit -stats=none ../SourceCode/LogicUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity LogicUnit
+# -- Compiling architecture rtl of LogicUnit
+# 
+# vcom -work work -2008 -explicit -stats=none TBLogicUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TbLogicUnit
+# -- Compiling architecture behavioural of TbLogicUnit
+# 
+# vcom -work work -2008 -explicit -stats=time,-cmd,msg ConfigExU.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:34:32 on Apr 07,2020
+# -- Loading package STANDARD
+# -- Compiling configuration FuncLUSim
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading entity TbLogicUnit
+# -- Loading architecture behavioural of TbLogicUnit
+# -- Loading entity LogicUnit
+# -- Compiling configuration TimeLUSim
+# -- Loading entity TbLogicUnit
+# -- Loading architecture behavioural of TbLogicUnit
+# -- Loading entity LogicUnit
+# -- Compiling configuration FuncAUSim
+# -- Loading entity TbArithUnit
+# -- Loading architecture behavioural of TbArithUnit
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Loading entity ArithUnit
+# -- Compiling configuration TimeAUSim
+# -- Loading entity TbArithUnit
+# -- Loading architecture behavioural of TbArithUnit
+# -- Loading entity ArithUnit
+# End time: 22:34:32 on Apr 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+#----------------------------------------------------------------------------------------------------------
+# Start the simulation
+#----------------------------------------------------------------------------------------------------------
+# vsim -gui work.FuncLUSim -t 100ps
+# vsim -gui work.FuncLUSim -t 100ps 
+# Start time: 22:34:33 on Apr 07,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.funclusim
+# Loading work.tblogicunit(behavioural)
+# Loading work.logicunit(rtl)
+# transcript off
+#----------------------------------------------------------------------------------------------------------
+# Simulation Run
+#----------------------------------------------------------------------------------------------------------
+# restart -f
+# run 6500 ns
+# ** Note: Using TestVectors from file LogicUnit00.tvs
+#    Time: 5 ns  Iteration: 0  Instance: /tblogicunit
+# ** Note: Simulation Completed
+#    Time: 6181 ns  Iteration: 0  Instance: /tblogicunit
+# transcript off

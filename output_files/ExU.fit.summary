@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Jan 25 12:22:28 2021
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : ExU
+Top-level Entity Name : RegFile
+Family : Cyclone IV E
+Device : EP4CE30F23C7
+Timing Models : Final
+Total logic elements : 3,123 / 28,848 ( 11 % )
+    Total combinational functions : 2,744 / 28,848 ( 10 % )
+    Dedicated logic registers : 2,176 / 28,848 ( 8 % )
+Total registers : 2176
+Total pins : 209 / 329 ( 64 % )
+Total virtual pins : 0
+Total memory bits : 0 / 608,256 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

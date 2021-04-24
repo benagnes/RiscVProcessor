@@ -1,0 +1,133 @@
+# End time: 14:34:46 on Apr 10,2020, Elapsed time: 0:04:09
+# Errors: 0, Warnings: 2
+#----------------------------------------------------------------------------------------------------------
+# compile
+#----------------------------------------------------------------------------------------------------------
+# vcom -work work -2008 -explicit -stats=none ../SourceCode/SLL64.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package MATH_REAL
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SLL64
+# -- Compiling architecture rtl of SLL64
+# vcom -work work -2008 -explicit -stats=none ../SourceCode/SRL64.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package MATH_REAL
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SRL64
+# -- Compiling architecture rtl of SRL64
+# vcom -work work -2008 -explicit -stats=none ../SourceCode/SRA64.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package MATH_REAL
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SRA64
+# -- Compiling architecture rtl of SRA64
+# 
+# vcom -work work -2008 -explicit -stats=none ../SourceCode/ShiftUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ShiftUnit
+# -- Compiling architecture rtl of ShiftUnit
+# ** Warning: ../SourceCode/ShiftUnit.vhd(57): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# ** Warning: ../SourceCode/ShiftUnit.vhd(60): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# 
+# vcom -work work -2008 -explicit -stats=none TBShiftUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TbShiftUnit
+# -- Compiling architecture behavioural of TbShiftUnit
+# 
+# vcom -work work -2008 -explicit -stats=time,-cmd,msg ConfigExU.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:34:47 on Apr 10,2020
+# -- Loading package STANDARD
+# -- Compiling configuration FuncLUSim
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading entity TbLogicUnit
+# -- Loading architecture behavioural of TbLogicUnit
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Loading entity LogicUnit
+# -- Compiling configuration TimeLUSim
+# -- Loading entity TbLogicUnit
+# -- Loading architecture behavioural of TbLogicUnit
+# -- Loading entity LogicUnit
+# -- Compiling configuration FuncAUSim
+# -- Loading entity TbArithUnit
+# -- Loading architecture behavioural of TbArithUnit
+# -- Loading entity ArithUnit
+# -- Compiling configuration TimeAUSim
+# -- Loading entity TbArithUnit
+# -- Loading architecture behavioural of TbArithUnit
+# -- Loading entity ArithUnit
+# -- Compiling configuration FuncSUSim
+# -- Loading entity TbShiftUnit
+# -- Loading architecture behavioural of TbShiftUnit
+# -- Loading package MATH_REAL
+# -- Loading entity ShiftUnit
+# -- Compiling configuration TimeSUSim
+# -- Loading entity TbShiftUnit
+# -- Loading architecture behavioural of TbShiftUnit
+# -- Loading entity ShiftUnit
+# End time: 14:34:47 on Apr 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+#----------------------------------------------------------------------------------------------------------
+# Start the simulation
+#----------------------------------------------------------------------------------------------------------
+# vsim -gui work.FuncSUSim -t 100ps
+# vsim -gui work.FuncSUSim -t 100ps 
+# Start time: 14:34:47 on Apr 10,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.funcsusim
+# Loading work.tbshiftunit(behavioural)
+# Loading work.shiftunit(rtl)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.sll64(rtl)
+# Loading work.srl64(rtl)
+# Loading work.sra64(rtl)
+# transcript off
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Ben  Hostname: DESKTOP-7AD9NIT  ProcessID: 11716
+#           Attempting to use alternate WLF file "./wlftgir9sb".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftgir9sb
+#----------------------------------------------------------------------------------------------------------
+# Simulation Run
+#----------------------------------------------------------------------------------------------------------
+# restart -f
+# run 5140 ns
+# ** Note: Using TestVectors from file SRL64Unit00.tvs
+#    Time: 15 ns  Iteration: 0  Instance: /tbshiftunit
+# ** Note: Simulation Completed
+#    Time: 5135 ns  Iteration: 0  Instance: /tbshiftunit
+# transcript off
