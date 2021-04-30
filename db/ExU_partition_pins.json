@@ -4,839 +4,819 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "reg1out[0]",
+					"name" : "Y[0]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[1]",
+					"name" : "Y[1]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[2]",
+					"name" : "Y[2]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[3]",
+					"name" : "Y[3]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[4]",
+					"name" : "Y[4]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[5]",
+					"name" : "Y[5]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[6]",
+					"name" : "Y[6]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[7]",
+					"name" : "Y[7]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[8]",
+					"name" : "Y[8]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[9]",
+					"name" : "Y[9]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[10]",
+					"name" : "Y[10]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[11]",
+					"name" : "Y[11]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[12]",
+					"name" : "Y[12]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[13]",
+					"name" : "Y[13]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[14]",
+					"name" : "Y[14]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[15]",
+					"name" : "Y[15]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[16]",
+					"name" : "Y[16]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[17]",
+					"name" : "Y[17]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[18]",
+					"name" : "Y[18]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[19]",
+					"name" : "Y[19]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[20]",
+					"name" : "Y[20]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[21]",
+					"name" : "Y[21]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[22]",
+					"name" : "Y[22]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[23]",
+					"name" : "Y[23]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[24]",
+					"name" : "Y[24]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[25]",
+					"name" : "Y[25]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[26]",
+					"name" : "Y[26]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[27]",
+					"name" : "Y[27]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[28]",
+					"name" : "Y[28]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[29]",
+					"name" : "Y[29]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[30]",
+					"name" : "Y[30]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[31]",
+					"name" : "Y[31]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[32]",
+					"name" : "Y[32]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[33]",
+					"name" : "Y[33]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[34]",
+					"name" : "Y[34]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[35]",
+					"name" : "Y[35]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[36]",
+					"name" : "Y[36]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[37]",
+					"name" : "Y[37]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[38]",
+					"name" : "Y[38]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[39]",
+					"name" : "Y[39]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[40]",
+					"name" : "Y[40]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[41]",
+					"name" : "Y[41]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[42]",
+					"name" : "Y[42]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[43]",
+					"name" : "Y[43]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[44]",
+					"name" : "Y[44]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[45]",
+					"name" : "Y[45]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[46]",
+					"name" : "Y[46]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[47]",
+					"name" : "Y[47]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[48]",
+					"name" : "Y[48]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[49]",
+					"name" : "Y[49]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[50]",
+					"name" : "Y[50]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[51]",
+					"name" : "Y[51]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[52]",
+					"name" : "Y[52]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[53]",
+					"name" : "Y[53]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[54]",
+					"name" : "Y[54]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[55]",
+					"name" : "Y[55]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[56]",
+					"name" : "Y[56]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[57]",
+					"name" : "Y[57]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[58]",
+					"name" : "Y[58]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[59]",
+					"name" : "Y[59]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[60]",
+					"name" : "Y[60]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[61]",
+					"name" : "Y[61]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[62]",
+					"name" : "Y[62]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1out[63]",
+					"name" : "Y[63]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[0]",
+					"name" : "Zero",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[1]",
+					"name" : "AltB",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[2]",
+					"name" : "AltBu",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[3]",
+					"name" : "AddnSub",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[4]",
+					"name" : "B[63]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[5]",
+					"name" : "A[63]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[6]",
+					"name" : "NotA",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[7]",
+					"name" : "B[62]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[8]",
+					"name" : "A[62]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[9]",
+					"name" : "B[61]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[10]",
+					"name" : "A[61]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[11]",
+					"name" : "B[60]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[12]",
+					"name" : "A[60]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[13]",
+					"name" : "B[59]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[14]",
+					"name" : "A[59]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[15]",
+					"name" : "B[58]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[16]",
+					"name" : "A[58]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[17]",
+					"name" : "B[57]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[18]",
+					"name" : "A[57]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[19]",
+					"name" : "B[56]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[20]",
+					"name" : "A[56]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[21]",
+					"name" : "B[55]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[22]",
+					"name" : "A[55]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[23]",
+					"name" : "B[54]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[24]",
+					"name" : "A[54]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[25]",
+					"name" : "B[53]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[26]",
+					"name" : "A[53]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[27]",
+					"name" : "B[52]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[28]",
+					"name" : "A[52]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[29]",
+					"name" : "B[51]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[30]",
+					"name" : "A[51]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[31]",
+					"name" : "B[50]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[32]",
+					"name" : "A[50]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[33]",
+					"name" : "B[49]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[34]",
+					"name" : "A[49]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[35]",
+					"name" : "B[48]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[36]",
+					"name" : "A[48]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[37]",
+					"name" : "B[47]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[38]",
+					"name" : "A[47]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[39]",
+					"name" : "B[46]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[40]",
+					"name" : "A[46]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[41]",
+					"name" : "B[45]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[42]",
+					"name" : "A[45]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[43]",
+					"name" : "B[44]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[44]",
+					"name" : "A[44]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[45]",
+					"name" : "B[43]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[46]",
+					"name" : "A[43]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[47]",
+					"name" : "B[42]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[48]",
+					"name" : "A[42]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[49]",
+					"name" : "B[41]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[50]",
+					"name" : "A[41]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[51]",
+					"name" : "B[40]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[52]",
+					"name" : "A[40]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[53]",
+					"name" : "B[39]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[54]",
+					"name" : "A[39]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[55]",
+					"name" : "B[38]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[56]",
+					"name" : "A[38]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[57]",
+					"name" : "B[37]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[58]",
+					"name" : "A[37]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[59]",
+					"name" : "B[36]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[60]",
+					"name" : "A[36]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[61]",
+					"name" : "B[35]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[62]",
+					"name" : "A[35]",
 					"strict" : false
 				},
 				{
-					"name" : "reg2out[63]",
+					"name" : "B[34]",
 					"strict" : false
 				},
 				{
-					"name" : "clock",
+					"name" : "A[34]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1sel[1]",
+					"name" : "B[33]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1sel[0]",
+					"name" : "A[33]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1sel[3]",
+					"name" : "B[32]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1sel[2]",
+					"name" : "A[32]",
 					"strict" : false
 				},
 				{
-					"name" : "reg1sel[4]",
+					"name" : "B[31]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[0]",
+					"name" : "A[31]",
 					"strict" : false
 				},
 				{
-					"name" : "regwritesel[0]",
+					"name" : "B[30]",
 					"strict" : false
 				},
 				{
-					"name" : "regwritesel[1]",
+					"name" : "A[30]",
 					"strict" : false
 				},
 				{
-					"name" : "regwritesel[2]",
+					"name" : "B[29]",
 					"strict" : false
 				},
 				{
-					"name" : "regwritesel[3]",
+					"name" : "A[29]",
 					"strict" : false
 				},
 				{
-					"name" : "regwrite",
+					"name" : "B[28]",
 					"strict" : false
 				},
 				{
-					"name" : "regwritesel[4]",
+					"name" : "A[28]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[1]",
+					"name" : "B[27]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[2]",
+					"name" : "A[27]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[3]",
+					"name" : "B[26]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[4]",
+					"name" : "A[26]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[5]",
+					"name" : "B[25]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[6]",
+					"name" : "A[25]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[7]",
+					"name" : "B[24]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[8]",
+					"name" : "A[24]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[9]",
+					"name" : "B[23]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[10]",
+					"name" : "A[23]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[11]",
+					"name" : "B[22]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[12]",
+					"name" : "A[22]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[13]",
+					"name" : "B[21]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[14]",
+					"name" : "A[21]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[15]",
+					"name" : "B[20]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[16]",
+					"name" : "A[20]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[17]",
+					"name" : "B[15]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[18]",
+					"name" : "A[15]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[19]",
+					"name" : "B[14]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[20]",
+					"name" : "A[14]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[21]",
+					"name" : "B[13]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[22]",
+					"name" : "A[13]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[23]",
+					"name" : "B[12]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[24]",
+					"name" : "A[12]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[25]",
+					"name" : "B[11]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[26]",
+					"name" : "A[11]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[27]",
+					"name" : "B[10]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[28]",
+					"name" : "A[10]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[29]",
+					"name" : "B[9]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[30]",
+					"name" : "A[9]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[31]",
+					"name" : "B[8]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[32]",
+					"name" : "A[8]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[33]",
+					"name" : "B[7]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[34]",
+					"name" : "A[7]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[35]",
+					"name" : "B[6]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[36]",
+					"name" : "A[6]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[37]",
+					"name" : "B[5]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[38]",
+					"name" : "A[5]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[39]",
+					"name" : "B[4]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[40]",
+					"name" : "A[4]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[41]",
+					"name" : "B[3]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[42]",
+					"name" : "A[3]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[43]",
+					"name" : "B[2]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[44]",
+					"name" : "A[2]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[45]",
+					"name" : "B[1]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[46]",
+					"name" : "A[1]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[47]",
+					"name" : "B[0]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[48]",
+					"name" : "A[0]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[49]",
+					"name" : "B[19]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[50]",
+					"name" : "A[19]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[51]",
+					"name" : "B[18]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[52]",
+					"name" : "A[18]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[53]",
+					"name" : "B[17]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[54]",
+					"name" : "A[17]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[55]",
+					"name" : "B[16]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[56]",
+					"name" : "A[16]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[57]",
+					"name" : "FuncClass[0]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[58]",
+					"name" : "ShiftFN[1]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[59]",
+					"name" : "ExtWord",
 					"strict" : false
 				},
 				{
-					"name" : "datain[60]",
+					"name" : "ShiftFN[0]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[61]",
+					"name" : "FuncClass[1]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[62]",
+					"name" : "LogicFN[0]",
 					"strict" : false
 				},
 				{
-					"name" : "datain[63]",
-					"strict" : false
-				},
-				{
-					"name" : "reg2sel[1]",
-					"strict" : false
-				},
-				{
-					"name" : "reg2sel[0]",
-					"strict" : false
-				},
-				{
-					"name" : "reg2sel[3]",
-					"strict" : false
-				},
-				{
-					"name" : "reg2sel[2]",
-					"strict" : false
-				},
-				{
-					"name" : "reg2sel[4]",
+					"name" : "LogicFN[1]",
 					"strict" : false
 				}
 			]

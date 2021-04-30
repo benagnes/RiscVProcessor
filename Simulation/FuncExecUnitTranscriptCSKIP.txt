@@ -1,0 +1,153 @@
+# transcript on
+#----------------------------------------------------------------------------------------------------------
+# compile
+#----------------------------------------------------------------------------------------------------------
+# vcom -work work -2008 -explicit -stats=none ../SourceCode/LogicUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity LogicUnit
+# -- Compiling architecture rtl of LogicUnit
+# 
+# vcom -work work -2008 -explicit -stats=none ../SourceCode/Full_Adder.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Full_Adder
+# -- Compiling architecture rtl of Full_Adder
+# 
+# vcom -work work -2008 -explicit -stats=none ../SourceCode/Carry_Skip_Block.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Carry_Skip_Block
+# -- Compiling architecture rtl of Carry_Skip_Block
+# 
+# vcom -work work -2008 -explicit -stats=none ../SourceCode/Adder_Skip.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder_Skip
+# -- Compiling architecture rtl of Adder_Skip
+# 
+# vcom -work work -2008 -explicit -stats=none ../SourceCode/ArithUnit_CSkip.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity ArithUnit_CSkip
+# -- Compiling architecture rtl of ArithUnit_CSkip
+# ** Warning: ../SourceCode/ArithUnit_CSkip.vhd(44): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# 
+# vcom -work work -2008 -explicit -stats=none ../SourceCode/SLL64.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package MATH_REAL
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SLL64
+# -- Compiling architecture rtl of SLL64
+# 
+# vcom -work work -2008 -explicit -stats=none ../SourceCode/SRL64.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package MATH_REAL
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SRL64
+# -- Compiling architecture rtl of SRL64
+# 
+# vcom -work work -2008 -explicit -stats=none ../SourceCode/SRA64.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package MATH_REAL
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SRA64
+# -- Compiling architecture rtl of SRA64
+# 
+# vcom -work work -2008 -explicit -stats=none ../SourceCode/ShiftUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ShiftUnit
+# -- Compiling architecture rtl of ShiftUnit
+# ** Warning: ../SourceCode/ShiftUnit.vhd(64): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# ** Warning: ../SourceCode/ShiftUnit.vhd(68): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# 
+# vcom -work work -2008 -explicit -stats=none ../SourceCode/ExecUnit_CSkip.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ExecUnit_CSkip
+# -- Compiling architecture rtl of ExecUnit_CSkip
+# ** Warning: ../SourceCode/ExecUnit_CSkip.vhd(60): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# ** Warning: ../SourceCode/ExecUnit_CSkip.vhd(61): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# 
+# vcom -work work -2008 -explicit -stats=none TBExecUnit_CSkip.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TbExecUnit_CSkip
+# -- Compiling architecture behavioural of TbExecUnit_CSkip
+# 
+#----------------------------------------------------------------------------------------------------------
+# Start the simulation
+#----------------------------------------------------------------------------------------------------------
+# vsim -gui work.TbExecUnit_CSkip -t 100ps
+# vsim -gui work.TbExecUnit_CSkip -t 100ps 
+# Start time: 22:49:32 on Apr 29,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tbexecunit_cskip(behavioural)
+# Loading work.execunit(rtl)
+# Loading work.logicunit(rtl)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading synopsys.attributes
+# Loading ieee.std_logic_misc(body)
+# Loading work.arithunit(rtl)
+# Loading work.adder_skip(rtl)
+# Loading work.carry_skip_block(rtl)
+# Loading work.full_adder(rtl)
+# Loading ieee.math_real(body)
+# Loading work.shiftunit(rtl)
+# Loading work.sll64(rtl)
+# Loading work.srl64(rtl)
+# Loading work.sra64(rtl)
+# transcript off
+#----------------------------------------------------------------------------------------------------------
+# Simulation Run
+#----------------------------------------------------------------------------------------------------------
+# restart -f
+# run 4120 ns
+# ** Note: Using TestVectors from file ExecUnit00.tvs
+#    Time: 15 ns  Iteration: 0  Instance: /tbexecunit_cskip
+# transcript off

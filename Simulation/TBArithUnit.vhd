@@ -9,7 +9,7 @@ Generic ( N : natural := 64 );
 End Entity TbArithUnit;
 
 Architecture behavioural of TbArithUnit is
-	Constant TestVectorFile : string := "ArithUnit00.tvs"; -- 01 calculates Y before MUX, 00 calculated after MUX
+	Constant TestVectorFile : string := "ArithUnit01.tvs"; -- 01 calculates Y before MUX, 00 calculated after MUX
 	Constant ClockPeriod : time := 2 ns;
 	Constant ResetPeriod : time := 5 ns;
 	Constant PreStimTime : time := 1 ns;

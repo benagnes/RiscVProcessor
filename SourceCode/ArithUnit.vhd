@@ -16,10 +16,10 @@ Port ( A, B : in std_logic_vector( N-1 downto 0 ); -- operands
 End Entity ArithUnit;
 
 Architecture rtl of ArithUnit is
-	component Adder is -- Adder component
-		Generic ( N : natural := 64 );
-		Port ( A, B : in std_logic_vector( N-1 downto 0 );
-		Y : out std_logic_vector( N-1 downto 0 ); 
+	component Adder_Skip is
+	Generic ( N : natural := 64 );
+	Port ( A, B : in std_logic_vector( N-1 downto 0 ); -- operands
+		Y : out std_logic_vector( N-1 downto 0 ); -- output
 		-- Control signals
 		Cin : in std_logic;
 		-- Status signals
@@ -29,7 +29,7 @@ Architecture rtl of ArithUnit is
 	signal Ain,Bin,AdderOut : std_logic_vector(N-1 downto 0);
 	signal carryout,overflow : std_logic;
 begin
-	Adder64: Adder port map (Ain,Bin,AdderOut,AddnSub,carryout,overflow); -- instantiate Adder
+	Adder64: Adder_Skip port map (Ain,Bin,AdderOut,AddnSub,carryout,overflow); -- instantiate Adder
 	AddY <= AdderOut; -- adder output
 	-- status signal calculations
 	Zero <= nor_reduce(AdderOut);

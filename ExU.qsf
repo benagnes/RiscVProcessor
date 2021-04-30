@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone IV E"
 set_global_assignment -name DEVICE EP4CE30F23C7
-set_global_assignment -name TOP_LEVEL_ENTITY RegFile
+set_global_assignment -name TOP_LEVEL_ENTITY ExecUnit_CSkip
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:46:37  AUGUST 09, 2020"
 set_global_assignment -name LAST_QUARTUS_VERSION "20.1.0 Lite Edition"
@@ -48,18 +48,18 @@ set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
 set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
-set_global_assignment -name VHDL_FILE SourceCode/DataCache.vhd
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name VHDL_FILE SourceCode/SRL64.vhd
 set_global_assignment -name VHDL_FILE SourceCode/SRA64.vhd
 set_global_assignment -name VHDL_FILE SourceCode/SLL64.vhd
 set_global_assignment -name VHDL_FILE SourceCode/ShiftUnit.vhd
 set_global_assignment -name VHDL_FILE SourceCode/LogicUnit.vhd
-set_global_assignment -name VHDL_FILE SourceCode/ExecUnit.vhd
-set_global_assignment -name VHDL_FILE SourceCode/ArithUnit.vhd
-set_global_assignment -name VHDL_FILE SourceCode/Adder.vhd
-set_global_assignment -name VHDL_FILE SourceCode/RegFile.vhd
-set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
-set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name VHDL_FILE SourceCode/Full_Adder.vhd
+set_global_assignment -name VHDL_FILE SourceCode/ExecUnit_CSkip.vhd
+set_global_assignment -name VHDL_FILE SourceCode/Carry_Skip_Block.vhd
+set_global_assignment -name VHDL_FILE SourceCode/ArithUnit_CSkip.vhd
+set_global_assignment -name VHDL_FILE SourceCode/Adder_Skip.vhd
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top

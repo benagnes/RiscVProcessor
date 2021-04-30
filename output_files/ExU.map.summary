@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Mon Jan 25 12:21:51 2021
+Analysis & Synthesis Status : Successful - Thu Apr 29 23:02:46 2021
 Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 Revision Name : ExU
-Top-level Entity Name : RegFile
+Top-level Entity Name : ExecUnit_CSkip
 Family : Cyclone IV E
-Total logic elements : 4,792
-    Total combinational functions : 2,744
-    Dedicated logic registers : 2,176
-Total registers : 2176
-Total pins : 209
+Total logic elements : 1,615
+    Total combinational functions : 1,615
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 204
 Total virtual pins : 0
 Total memory bits : 0
 Embedded Multiplier 9-bit elements : 0

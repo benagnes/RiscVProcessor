@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11e MIXED_VERSIONS
 13
 !s112 1.1
 !i10d 8192
@@ -9,21 +10,22 @@ z2
 cModel Technology
 dC:/Users/Ben/Documents/Ensc 350/Final project 1/ExU/Simulation
 Eadder
-Z0 w1585592188
+Z0 w1597005770
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z3 dC:/Users/Ben/Documents/Ensc 350/Final project 2/ExU/Simulation
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 149
+Z3 dC:/Users/Ben/Documents/ExU/Simulation
 Z4 8../SourceCode/Adder.vhd
 Z5 F../SourceCode/Adder.vhd
 l0
-L4
+L4 1
 Vn?BG^J7b9=K6SJX9=D?nW0
 !s100 2dRo7FS4[7>5KLDdn`;^Y0
-Z6 OV;C;10.5b;63
+Z6 OV;C;2020.1;71
 33
-Z7 !s110 1586483514
+Z7 !s110 1619755487
 !i10b 1
-Z8 !s108 1586483514.000000
+Z8 !s108 1619755487.000000
 Z9 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|../SourceCode/Adder.vhd|
 Z10 !s107 ../SourceCode/Adder.vhd|
 !i113 1
@@ -33,8 +35,9 @@ Artl
 R1
 R2
 DEx4 work 5 adder 0 22 n?BG^J7b9=K6SJX9=D?nW0
+!i122 149
 l16
-L14
+L14 11
 VB@NA]L_OiJHhb4;CW482B1
 !s100 FRom]PcOTDSRBRBn^f>=@0
 R6
@@ -47,364 +50,632 @@ R10
 !i113 1
 R11
 R12
-Earithunit
-Z13 w1586482693
-Z14 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
-Z15 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 g8;l:a_bzlE?3R3d7zk3Z0
-Z16 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Eadder_skip
+Z13 w1619758942
 R1
 R2
-Z17 DPx10 cycloneive 21 cycloneive_components 0 22 Yj^f[Ven<H;0LiK:6PWEg0
+!i122 369
 R3
-Z18 8ModelSim/ArithUnit.vho
-Z19 FModelSim/ArithUnit.vho
+Z14 8C:/Users/Ben/Documents/ExU/SourceCode/Adder_Skip.vhd
+Z15 FC:/Users/Ben/Documents/ExU/SourceCode/Adder_Skip.vhd
 l0
-L77
-VGOH:iGQf@UkX]`=;KSIh21
-!s100 Q?<oJM>V=Y2Sb<Q]1TGB_1
+L4 1
+Vhedb0DR__[0H:WABXNC:b2
+!s100 KJIT[l;J[kMfQfg<eBU5g2
 R6
 33
-Z20 !s110 1586495016
+Z16 !s110 1619761949
 !i10b 1
-Z21 !s108 1586495015.000000
-Z22 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=time,-cmd,msg|ModelSim/ArithUnit.vho|
-Z23 !s107 ModelSim/ArithUnit.vho|
+Z17 !s108 1619761949.000000
+Z18 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Ben/Documents/ExU/SourceCode/Adder_Skip.vhd|
+Z19 !s107 C:/Users/Ben/Documents/ExU/SourceCode/Adder_Skip.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 10 adder_skip 0 22 hedb0DR__[0H:WABXNC:b2
+!i122 369
+l27
+L14 27
+V]laYNEfcjC?^Si78_:_:70
+!s100 HcmG;8;`[ZZdmP[AB9zHX3
+R6
+33
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Earithunit
+Z20 w1619757490
+Z21 DPx8 synopsys 10 attributes 0 22 dc>JdEHRM@6GGENe5bZ?D1
+Z22 DPx4 ieee 14 std_logic_misc 0 22 dN]HY6l5ohPcZ:TaC@B;53
+Z23 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z24 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z25 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R1
+R2
+!i122 257
+R3
+Z26 8../SourceCode/ArithUnit.vhd
+Z27 F../SourceCode/ArithUnit.vhd
+l0
+L8 1
+V4;Eg?UV@kB4ccOVmfYo8g2
+!s100 ;fXi4U8zBRQ]ieGzbLC8?3
+R6
+33
+Z28 !s110 1619757832
+!i10b 1
+Z29 !s108 1619757832.000000
+Z30 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|../SourceCode/ArithUnit.vhd|
+Z31 !s107 ../SourceCode/ArithUnit.vhd|
+!i113 1
+R11
+R12
+Artl
+R21
+R22
+R23
+R24
+R25
+R1
+R2
+Z32 DEx4 work 9 arithunit 0 22 4;Eg?UV@kB4ccOVmfYo8g2
+!i122 257
+l31
+Z33 L18 28
+VRXhFcK1XPacn]S_OIdz6b1
+!s100 7aZ<]Dl:Vl7?VK^cn@ie50
+R6
+33
+R28
+!i10b 1
+R29
+R30
+R31
 !i113 1
 R11
 R12
 Astructure
-R14
-R15
-R16
+Z34 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z35 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 g8;l:a_bzlE?3R3d7zk3Z0
+Z36 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
 R1
-R2
-R17
-Z24 DEx4 work 9 arithunit 0 22 GOH:iGQf@UkX]`=;KSIh21
+Z37 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z38 DPx10 cycloneive 21 cycloneive_components 0 22 Yj^f[Ven<H;0LiK:6PWEg0
+DEx4 work 9 arithunit 0 22 GOH:iGQf@UkX]`=;KSIh21
 l843
 L361
 Va00J``_<[oh[Bl]19lj>j0
 !s100 VXcn:gJeShW@T@[E8^`?S3
-R6
+Z39 OV;C;10.5b;63
 33
-R20
+!s110 1586495016
 !i10b 1
+!s108 1586495015.000000
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=time,-cmd,msg|ModelSim/ArithUnit.vho|
+!s107 ModelSim/ArithUnit.vho|
+!i113 1
+R11
+R12
+Z40 dC:/Users/Ben/Documents/Ensc 350/Final project 2/ExU/Simulation
+FModelSim/ArithUnit.vho
+w1586482693
+8ModelSim/ArithUnit.vho
+Earithunit_cskip
+Z41 w1619757645
 R21
 R22
 R23
-!i113 1
-R11
-R12
-Artl
-DPx8 synopsys 10 attributes 0 22 liCm]LV3<lX4Zl>o6^8IV1
-DPx4 ieee 14 std_logic_misc 0 22 BLzBaQbXS>Q1z>5YO]m[52
-Z25 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-Z26 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
-Z27 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-R1
-R2
-DEx4 work 9 arithunit 0 22 4;Eg?UV@kB4ccOVmfYo8g2
-l31
-L18
-Vl``da7124OZdc:C4ZVCmD0
-!s100 9F6zo<nMX3lYeIX8aTdbz3
-R6
-33
-R7
-!i10b 1
-R8
-!s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|../SourceCode/ArithUnit.vhd|
-!s107 ../SourceCode/ArithUnit.vhd|
-!i113 1
-R11
-R12
-F../SourceCode/ArithUnit.vhd
-w1586482323
-8../SourceCode/ArithUnit.vhd
-Eexecunit
-Z28 w1586483054
-R14
-R15
-R16
-R1
-R2
-R17
-R3
-Z29 8ModelSim/ExecUnit.vho
-Z30 FModelSim/ExecUnit.vho
-l0
-L77
-V_nTJ435oEkT9TBd1@fjE11
-!s100 9>WRR8cVMY_<G@UUid^@_0
-R6
-33
-Z31 !s110 1586549939
-!i10b 1
-Z32 !s108 1586549939.000000
-Z33 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=time,-cmd,msg|ModelSim/ExecUnit.vho|
-Z34 !s107 ModelSim/ExecUnit.vho|
-!i113 1
-R11
-R12
-Astructure
-R14
-R15
-R16
-R1
-R2
-R17
-Z35 DEx4 work 8 execunit 0 22 _nTJ435oEkT9TBd1@fjE11
-l2019
-L301
-V?gBk`K3C2@W^H0_HL]SLm2
-!s100 OeH9ogMM=bSR9JJAR[>nz3
-R6
-33
-!s110 1586549940
-!i10b 1
-R32
-R33
-R34
-!i113 1
-R11
-R12
-Artl
-R25
-R1
-R2
-DEx4 work 8 execunit 0 22 A:UQg]SH<N_d`EXmUfX`X3
-l46
-L15
-VE4BH7JLZCddEPYi24Yf0V1
-!s100 YdH_11`go4I:gNY83Ai7Y0
-R6
-33
-!s110 1586483515
-!i10b 1
-R8
-!s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|../SourceCode/ExecUnit.vhd|
-!s107 ../SourceCode/ExecUnit.vhd|
-!i113 1
-R11
-R12
-F../SourceCode/ExecUnit.vhd
-w1586464898
-8../SourceCode/ExecUnit.vhd
-Cfuncausim
-Z36 eTbArithUnit
-Z37 abehavioural
-R14
-R15
-R16
-R17
 R24
-Z38 DAx4 work 11 tbarithunit 11 behavioural 22 CYe9MmTMLS48EGLCd4jQl2
 R25
 R1
 R2
-Z39 DEx4 work 11 tbarithunit 0 22 H?jnlGf<UDYSYk@9Scd433
-Z40 w1586417224
+!i122 373
 R3
-Z41 8ConfigExU.vhd
-Z42 FConfigExU.vhd
+Z42 8C:/Users/Ben/Documents/ExU/SourceCode/ArithUnit_CSkip.vhd
+Z43 FC:/Users/Ben/Documents/ExU/SourceCode/ArithUnit_CSkip.vhd
 l0
-L16
-VB2;l5<7oHb]Znf;Yei9O<2
-!s100 5T=GRVeJ_heO3hEh7>8GR1
+L8 1
+V98JD:]EnXNCe4c;=]^bIN1
+!s100 a3@:Gnc9MhR>LD>IW4O^`1
 R6
 33
-Z43 !s110 1586549941
+Z44 !s110 1619761950
 !i10b 1
-Z44 !s108 1586549941.000000
-Z45 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=time,-cmd,msg|ConfigExU.vhd|
-Z46 !s107 ConfigExU.vhd|
+Z45 !s108 1619761950.000000
+Z46 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Ben/Documents/ExU/SourceCode/ArithUnit_CSkip.vhd|
+Z47 !s107 C:/Users/Ben/Documents/ExU/SourceCode/ArithUnit_CSkip.vhd|
 !i113 1
 R11
 R12
-Cfunclusim
-Z47 eTbLogicUnit
-R37
-Z48 DEx4 work 9 logicunit 0 22 m[Miif00mSXLJS0JRCP2d2
-Z49 DAx4 work 11 tblogicunit 11 behavioural 22 Tz3>OimX>AT85m7lR[5EJ2
+Artl
+R21
+R22
+R23
+R24
 R25
 R1
 R2
-Z50 DEx4 work 11 tblogicunit 0 22 :aF1E7<jIb_KJZ4nYJZ[i3
-R40
-R3
-R41
-R42
-l0
-L2
-VYiGo`Uhm98oe6fKQQ90od3
-!s100 o<F1:flKKHbZ`E<5:A^[Y3
-R6
-33
-R43
-!i10b 1
-R44
-R45
-R46
-!i113 1
-R11
-R12
-Cfuncsusim
-Z51 eTbShiftUnit
-R37
-Z52 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
-Z53 DEx4 work 9 shiftunit 0 22 IGHBmk5ADH6DF49cImjaj2
-Z54 DAx4 work 11 tbshiftunit 11 behavioural 22 kO9=JbE]H^]L5QLiSH`V;2
-R25
-R1
-R2
-Z55 DEx4 work 11 tbshiftunit 0 22 QgL_T^5iA^@;gfA8o_n]L1
-R40
-R3
-R41
-R42
-l0
-L29
-V4SGEJZH:Fh=bP:5>hP=?O3
-!s100 0Hn=9U;:3@bg@fQ^<3=LZ3
-R6
-33
-R43
-!i10b 1
-R44
-R45
-R46
-!i113 1
-R11
-R12
-Cfuncxusim
-Z56 eTbExecUnit
-R37
-R14
-R15
-R16
-R17
-R35
-Z57 DAx4 work 10 tbexecunit 11 behavioural 22 ^<ZF6o3V6UWSCRCTEka9k0
-R25
-R1
-R2
-Z58 DEx4 work 10 tbexecunit 0 22 m7:<5UP5jCmncYPagXIU20
-R40
-R3
-R41
-R42
-l0
-L43
-V^7;G`^zbOGDkgl8LS;Ck^0
-!s100 XIj=8U5ocd]4Pn``cFm[g1
-R6
-33
-R43
-!i10b 1
-R44
-R45
-R46
-!i113 1
-R11
-R12
-Ehard_block
-R28
-R14
-R15
-R16
-R1
-R2
-R17
-R3
-R29
-R30
-l0
-L34
-VXT=F7PA`1j][[eM]MD0KO0
-!s100 A`ID_i56<Ua56=ZD=[EG=2
-R6
-33
-R31
-!i10b 1
-R32
+Z48 DEx4 work 15 arithunit_cskip 0 22 98JD:]EnXNCe4c;=]^bIN1
+!i122 373
+l31
 R33
-R34
-!i113 1
-R11
-R12
-Astructure
-R14
-R15
-R16
-R1
-R2
-R17
-DEx4 work 10 hard_block 0 22 XT=F7PA`1j][[eM]MD0KO0
-l64
-L50
-VBGeSh>j:nnDYQGNW2@jBJ2
-!s100 2S?JL;LJ@<3:BHXTNcXS]3
+VK__iXB@RQ07G24FHBnDfF2
+!s100 g]c=^g8A4;znn=N<ke7;P3
 R6
 33
-R31
+R44
 !i10b 1
-R32
-R33
-R34
+R45
+R46
+R47
 !i113 1
 R11
 R12
-Elogicunit
-Z59 w1585595984
+Ecarry_skip_block
+Z49 w1619757257
 R1
 R2
+!i122 371
 R3
-Z60 8../SourceCode/LogicUnit.vhd
-Z61 F../SourceCode/LogicUnit.vhd
+Z50 8C:/Users/Ben/Documents/ExU/SourceCode/Carry_Skip_Block.vhd
+Z51 FC:/Users/Ben/Documents/ExU/SourceCode/Carry_Skip_Block.vhd
 l0
-L4
-Vm[Miif00mSXLJS0JRCP2d2
-!s100 8me8fD:WdgZ_n0m8Vm`4I0
+L4 1
+VI;63d8I=:oV2E;W<NmehR3
+!s100 N^UFiMkU[N7o7V8Dn0dnP1
 R6
 33
-Z62 !s110 1586483513
+R16
 !i10b 1
-Z63 !s108 1586483513.000000
-Z64 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|../SourceCode/LogicUnit.vhd|
-Z65 !s107 ../SourceCode/LogicUnit.vhd|
+R17
+Z52 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Ben/Documents/ExU/SourceCode/Carry_Skip_Block.vhd|
+Z53 !s107 C:/Users/Ben/Documents/ExU/SourceCode/Carry_Skip_Block.vhd|
 !i113 1
 R11
 R12
 Artl
 R1
 R2
-R48
-l13
-L11
-V_7PeeVh[JVWEdH9UoKdQR0
-!s100 a_bWO57WQPbB^n==i>Xon3
+DEx4 work 16 carry_skip_block 0 22 I;63d8I=:oV2E;W<NmehR3
+!i122 371
+l22
+L11 25
+V`9IZa1KU@6MNZ@^2Ogc=_0
+!s100 _^`UXcmohY4kmK8H:M<710
 R6
 33
-R62
+R16
 !i10b 1
-R63
+R17
+R52
+R53
+!i113 1
+R11
+R12
+Edatacache
+Z54 w1600622266
+R23
+R1
+R2
+!i122 60
+R3
+Z55 8C:/Users/Ben/Documents/ExU/SourceCode/DataCache.vhd
+Z56 FC:/Users/Ben/Documents/ExU/SourceCode/DataCache.vhd
+l0
+L5 1
+V5`KafUkmKbYY6o64STcPO3
+!s100 ZV0nMgVz0de[2E0?gP_Y;0
+R6
+33
+Z57 !s110 1619748632
+!i10b 1
+Z58 !s108 1619748632.000000
+Z59 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Ben/Documents/ExU/SourceCode/DataCache.vhd|
+Z60 !s107 C:/Users/Ben/Documents/ExU/SourceCode/DataCache.vhd|
+!i113 1
+R11
+R12
+Artl
+R23
+R1
+R2
+DEx4 work 9 datacache 0 22 5`KafUkmKbYY6o64STcPO3
+!i122 60
+l26
+L17 53
+VMbC=`UT5SCcAmR[2cWOOA3
+!s100 bdN=:@FzQI1_Hk?J]N<j]2
+R6
+33
+R57
+!i10b 1
+R58
+R59
+R60
+!i113 1
+R11
+R12
+Eexecunit
+Z61 w1600567866
+R23
+R1
+R2
+!i122 61
+R3
+Z62 8C:/Users/Ben/Documents/ExU/SourceCode/ExecUnit.vhd
+Z63 FC:/Users/Ben/Documents/ExU/SourceCode/ExecUnit.vhd
+l0
+L5 1
+VDTBo[ze=IgC9C9SPMK:GS3
+!s100 OWWhS:Fh=A61he1P`RFD;3
+R6
+33
+R57
+!i10b 1
+R58
+Z64 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Ben/Documents/ExU/SourceCode/ExecUnit.vhd|
+Z65 !s107 C:/Users/Ben/Documents/ExU/SourceCode/ExecUnit.vhd|
+!i113 1
+R11
+R12
+Artl
+R23
+R1
+R2
+DEx4 work 8 execunit 0 22 DTBo[ze=IgC9C9SPMK:GS3
+!i122 61
+l50
+Z66 L18 47
+VPPQF0@RLNBB6i0[5H:AWa2
+!s100 ZGKl7l5TPRB`d`zWRF3nD1
+R6
+33
+R57
+!i10b 1
+R58
 R64
 R65
 !i113 1
 R11
 R12
 Astructure
-R14
-R15
-R16
+R34
+R35
+R36
+R1
+R37
+R38
+Z67 DEx4 work 8 execunit 0 22 _nTJ435oEkT9TBd1@fjE11
+l2019
+L301
+V?gBk`K3C2@W^H0_HL]SLm2
+!s100 OeH9ogMM=bSR9JJAR[>nz3
+R39
+33
+!s110 1586549940
+!i10b 1
+Z68 !s108 1586549939.000000
+Z69 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=time,-cmd,msg|ModelSim/ExecUnit.vho|
+Z70 !s107 ModelSim/ExecUnit.vho|
+!i113 1
+R11
+R12
+R40
+Z71 FModelSim/ExecUnit.vho
+Z72 w1586483054
+Z73 8ModelSim/ExecUnit.vho
+Eexecunit_cskip
+Z74 w1619761385
+R23
 R1
 R2
+!i122 376
+R3
+Z75 8C:/Users/Ben/Documents/ExU/SourceCode/ExecUnit_CSkip.vhd
+Z76 FC:/Users/Ben/Documents/ExU/SourceCode/ExecUnit_CSkip.vhd
+l0
+L5 1
+VG93S3]@]<kcOiizYGW31N2
+!s100 V2V6Q9;0:ToGez^K<oJIl0
+R6
+33
+R44
+!i10b 1
+R45
+Z77 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Ben/Documents/ExU/SourceCode/ExecUnit_CSkip.vhd|
+Z78 !s107 C:/Users/Ben/Documents/ExU/SourceCode/ExecUnit_CSkip.vhd|
+!i113 1
+R11
+R12
+Artl
+R23
+R1
+R2
+DEx4 work 14 execunit_cskip 0 22 G93S3]@]<kcOiizYGW31N2
+!i122 376
+l50
+R66
+V;d2:5g[chCjBdai;el<G=2
+Z79 !s100 A<G]O:8HJbZU=K8DL`Fo83
+R6
+33
+R44
+!i10b 1
+R45
+R77
+R78
+!i113 1
+R11
+R12
+Efull_adder
+Z80 w1619760069
+R1
+R2
+!i122 370
+R3
+Z81 8C:/Users/Ben/Documents/ExU/SourceCode/Full_Adder.vhd
+Z82 FC:/Users/Ben/Documents/ExU/SourceCode/Full_Adder.vhd
+l0
+L4 1
+V6RTbXQRL8j_VMi:]okz`M1
+!s100 ;M;XOJ]Ohzz_i0GEB8KMQ0
+R6
+33
+R16
+!i10b 1
 R17
+Z83 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Ben/Documents/ExU/SourceCode/Full_Adder.vhd|
+Z84 !s107 C:/Users/Ben/Documents/ExU/SourceCode/Full_Adder.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 10 full_adder 0 22 6RTbXQRL8j_VMi:]okz`M1
+!i122 370
+l13
+L9 14
+V@B7PXVgZ>b?[;3n:eGRL;1
+!s100 V_WXI1NjMRm8gmPVN8:U[3
+R6
+33
+R16
+!i10b 1
+R17
+R83
+R84
+!i113 1
+R11
+R12
+Cfuncausim
+eTbArithUnit_CSkip
+Z85 abehavioural
+R32
+R21
+R22
+R24
+R25
+R48
+DAx4 work 17 tbarithunit_cskip 11 behavioural 22 BE_M^>jF]nf;T=gF526[M2
+R23
+R1
+R2
+Z86 DEx4 work 17 tbarithunit_cskip 0 22 ha=]5P<BFUkk7IED;aonP3
+!i122 276
+w1619757982
+R3
+Z87 8ConfigExU.vhd
+Z88 FConfigExU.vhd
+l0
+L23 1
+VE5H9K<0T0<mk;S1WWDCCO0
+!s100 e8R7nHz_iO=B=ZdJ^RCg=2
+R6
+33
+!s110 1619757984
+!i10b 1
+!s108 1619757984.000000
+Z89 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=time,-cmd,msg|ConfigExU.vhd|
+Z90 !s107 ConfigExU.vhd|
+!i113 1
+R11
+R12
+Cfunclusim
+Z91 eTbLogicUnit
+R85
+Z92 DEx4 work 9 logicunit 0 22 m[Miif00mSXLJS0JRCP2d2
+Z93 DAx4 work 11 tblogicunit 11 behavioural 22 Tz3>OimX>AT85m7lR[5EJ2
+Z94 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R37
+Z95 DEx4 work 11 tblogicunit 0 22 :aF1E7<jIb_KJZ4nYJZ[i3
+Z96 w1586417224
+R40
+R87
+R88
+l0
+L2
+VYiGo`Uhm98oe6fKQQ90od3
+!s100 o<F1:flKKHbZ`E<5:A^[Y3
+R39
+33
+Z97 !s110 1586549941
+!i10b 1
+Z98 !s108 1586549941.000000
+R89
+R90
+!i113 1
+R11
+R12
+Cfuncsusim
+Z99 eTbShiftUnit
+R85
+Z100 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z101 DEx4 work 9 shiftunit 0 22 IGHBmk5ADH6DF49cImjaj2
+Z102 DAx4 work 11 tbshiftunit 11 behavioural 22 kO9=JbE]H^]L5QLiSH`V;2
+R94
+R1
+R37
+Z103 DEx4 work 11 tbshiftunit 0 22 QgL_T^5iA^@;gfA8o_n]L1
+R96
+R40
+R87
+R88
+l0
+L29
+V4SGEJZH:Fh=bP:5>hP=?O3
+!s100 0Hn=9U;:3@bg@fQ^<3=LZ3
+R39
+33
+R97
+!i10b 1
+R98
+R89
+R90
+!i113 1
+R11
+R12
+Cfuncxusim
+Z104 eTbExecUnit
+R85
+R34
+R35
+R36
+R38
+R67
+Z105 DAx4 work 10 tbexecunit 11 behavioural 22 ^<ZF6o3V6UWSCRCTEka9k0
+R94
+R1
+R37
+Z106 DEx4 work 10 tbexecunit 0 22 m7:<5UP5jCmncYPagXIU20
+R96
+R40
+R87
+R88
+l0
+L43
+V^7;G`^zbOGDkgl8LS;Ck^0
+!s100 XIj=8U5ocd]4Pn``cFm[g1
+R39
+33
+R97
+!i10b 1
+R98
+R89
+R90
+!i113 1
+R11
+R12
+Ehard_block
+R72
+R34
+R35
+R36
+R1
+R37
+R38
+R40
+R73
+R71
+l0
+L34
+VXT=F7PA`1j][[eM]MD0KO0
+!s100 A`ID_i56<Ua56=ZD=[EG=2
+R39
+33
+Z107 !s110 1586549939
+!i10b 1
+R68
+R69
+R70
+!i113 1
+R11
+R12
+Astructure
+R34
+R35
+R36
+R1
+R37
+R38
+DEx4 work 10 hard_block 0 22 XT=F7PA`1j][[eM]MD0KO0
+l64
+L50
+VBGeSh>j:nnDYQGNW2@jBJ2
+!s100 2S?JL;LJ@<3:BHXTNcXS]3
+R39
+33
+R107
+!i10b 1
+R68
+R69
+R70
+!i113 1
+R11
+R12
+Elogicunit
+R0
+R1
+R2
+!i122 350
+R3
+Z108 8../SourceCode/LogicUnit.vhd
+Z109 F../SourceCode/LogicUnit.vhd
+l0
+L4 1
+Vm[Miif00mSXLJS0JRCP2d2
+!s100 8me8fD:WdgZ_n0m8Vm`4I0
+R6
+33
+Z110 !s110 1619761771
+!i10b 1
+Z111 !s108 1619761771.000000
+Z112 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|../SourceCode/LogicUnit.vhd|
+Z113 !s107 ../SourceCode/LogicUnit.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+R92
+!i122 350
+l14
+L11 15
+VfVJWlJUo3hXJPYkgLcVWc2
+!s100 OFOH<0AJobZY]mUaOk0Ea1
+R6
+33
+R110
+!i10b 1
+R111
+R112
+R113
+!i113 1
+R11
+R12
+Astructure
+R34
+R35
+R36
+R1
+R37
+R38
 DEx4 work 9 logicunit 0 22 UN3o;TM`A1[DM@kj;_[BX1
 l563
 L283
 VHX_VFaL6iHI`Gmaji_nIU1
 !s100 gG<FO[ID]oD=DMIbS15Mg0
-R6
+R39
 33
 !s110 1586324335
 !i10b 1
@@ -417,64 +688,110 @@ R12
 FModelSim/LogicUnit.vho
 w1586324223
 8ModelSim/LogicUnit.vho
-Eshiftunit
-Z66 w1586416169
-R25
-R52
+R40
+Eregfile
+Z114 w1597010078
+R23
 R1
 R2
+!i122 63
 R3
-Z67 8../SourceCode/ShiftUnit.vhd
-Z68 F../SourceCode/ShiftUnit.vhd
+Z115 8C:/Users/Ben/Documents/ExU/SourceCode/RegFile.vhd
+Z116 FC:/Users/Ben/Documents/ExU/SourceCode/RegFile.vhd
 l0
-L6
-VIGHBmk5ADH6DF49cImjaj2
-!s100 ]U[1ojgIHGPmGAz_9mX3a3
+L5 1
+VV0_=omf2UfGmb=aeE^mL[0
+!s100 Y3l_k>1CTaD>SBWcO8f6d1
 R6
 33
-R7
+R57
 !i10b 1
-R8
-Z69 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|../SourceCode/ShiftUnit.vhd|
-Z70 !s107 ../SourceCode/ShiftUnit.vhd|
+R58
+Z117 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Ben/Documents/ExU/SourceCode/RegFile.vhd|
+Z118 !s107 C:/Users/Ben/Documents/ExU/SourceCode/RegFile.vhd|
 !i113 1
 R11
 R12
 Artl
-R25
-R52
+R23
 R1
 R2
-R53
-l41
-L14
-VH]HblX:aAamWEo_>2i4X01
-!s100 CBm2[MbjClk@InSUFF2TR3
+DEx4 work 7 regfile 0 22 V0_=omf2UfGmb=aeE^mL[0
+!i122 63
+l18
+L15 23
+V]QCL4Lj_jW<OiBM6EokQ12
+!s100 1La`n;?KWJ6]NPn882Y043
 R6
 33
-R7
+R57
 !i10b 1
-R8
-R69
-R70
+R58
+R117
+R118
+!i113 1
+R11
+R12
+Eshiftunit
+R0
+R23
+Z119 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+R1
+R2
+!i122 358
+R3
+Z120 8../SourceCode/ShiftUnit.vhd
+Z121 F../SourceCode/ShiftUnit.vhd
+l0
+L6 1
+V0;cXT@QQHmf=kIFS3f@oY2
+!s100 ROB^Th3@TE4:iTGMhPmU00
+R6
+33
+Z122 !s110 1619761772
+!i10b 1
+Z123 !s108 1619761772.000000
+Z124 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|../SourceCode/ShiftUnit.vhd|
+Z125 !s107 ../SourceCode/ShiftUnit.vhd|
+!i113 1
+R11
+R12
+Artl
+R23
+R119
+R1
+R2
+DEx4 work 9 shiftunit 0 22 0;cXT@QQHmf=kIFS3f@oY2
+!i122 358
+l42
+L15 57
+VEO97gWJ]FlV<<bMN5YF_?1
+!s100 :jL1[zWHGCWlBbU3A7Lf]1
+R6
+33
+R122
+!i10b 1
+R123
+R124
+R125
 !i113 1
 R11
 R12
 Astructure
-R14
-R15
-R16
+R34
+R35
+R36
 R1
-R2
-R17
+R37
+R38
 DEx4 work 9 shiftunit 0 22 TEA<C:fa]m9o8FPm=KzQL0
 l1799
 L350
 VWoYR7CTIVWbQKDFP<3FD43
 !s100 Q@=7]Vl4aI:9>T`a:RUaO0
-R6
+R39
 33
-Z71 !s110 1586481342
+!s110 1586481342
 !i10b 1
 !s108 1586481341.000000
 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=time,-cmd,msg|ModelSim/ShiftUnit.vho|
@@ -485,425 +802,572 @@ R12
 FModelSim/ShiftUnit.vho
 w1586414101
 8ModelSim/ShiftUnit.vho
+R40
 Esll64
-Z72 w1586411954
+R0
+R23
+R119
 R25
-R52
-R27
-R26
+R24
 R1
 R2
+!i122 355
 R3
-Z73 8../SourceCode/SLL64.vhd
-Z74 F../SourceCode/SLL64.vhd
+Z126 8../SourceCode/SLL64.vhd
+Z127 F../SourceCode/SLL64.vhd
 l0
-L7
+L7 1
 VUl7clke2C0b]RaOfL0Q_z0
 !s100 5:oWhYWf:BbRe2aki2gbL2
 R6
 33
-R7
+R122
 !i10b 1
-R8
-Z75 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|../SourceCode/SLL64.vhd|
-Z76 !s107 ../SourceCode/SLL64.vhd|
+R111
+Z128 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|../SourceCode/SLL64.vhd|
+Z129 !s107 ../SourceCode/SLL64.vhd|
 !i113 1
 R11
 R12
 Artl
+R23
+R119
 R25
-R52
-R27
-R26
+R24
 R1
 R2
 DEx4 work 5 sll64 0 22 Ul7clke2C0b]RaOfL0Q_z0
+!i122 355
 l17
-L14
-VfHLBDoi1e;LjdhNk^VT;L0
-!s100 Jz?7Ded]9;AkbaOAmZlVI0
+Z130 L14 24
+VZ_=8jWTZZNmkLbYV]Z;mU0
+!s100 6OaUMCD9k<=n4mlC1BJ7Q1
 R6
 33
-R7
+R122
 !i10b 1
-R8
-R75
-R76
+R111
+R128
+R129
 !i113 1
 R11
 R12
 Esra64
-Z77 w1586411965
+R0
+R23
+R119
 R25
-R52
-R27
-R26
+R24
 R1
 R2
+!i122 357
 R3
-Z78 8../SourceCode/SRA64.vhd
-Z79 F../SourceCode/SRA64.vhd
+Z131 8../SourceCode/SRA64.vhd
+Z132 F../SourceCode/SRA64.vhd
 l0
-L7
+L7 1
 VJ:Y2;_czi9SjbT0ITiK4^2
 !s100 jYWcgIaLMmKA2P84OK`dK0
 R6
 33
-R7
+R122
 !i10b 1
-R8
-Z80 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|../SourceCode/SRA64.vhd|
-Z81 !s107 ../SourceCode/SRA64.vhd|
+R123
+Z133 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|../SourceCode/SRA64.vhd|
+Z134 !s107 ../SourceCode/SRA64.vhd|
 !i113 1
 R11
 R12
 Artl
+R23
+R119
 R25
-R52
-R27
-R26
+R24
 R1
 R2
 DEx4 work 5 sra64 0 22 J:Y2;_czi9SjbT0ITiK4^2
+!i122 357
 l17
-L14
-V4Lm4KH36i1]9@59?OMW[o2
-!s100 KWgGE=m32X_[b5NH]jJAD0
+R130
+VBM?SdWo8b]CaWVaPENPMm0
+!s100 b<_c@Ykoln3OSZoja7]IQ1
 R6
 33
-R7
+R122
 !i10b 1
-R8
-R80
-R81
+R123
+R133
+R134
 !i113 1
 R11
 R12
 Esrl64
-Z82 w1586411960
+R0
+R23
+R119
 R25
-R52
-R27
-R26
+R24
 R1
 R2
+!i122 356
 R3
-Z83 8../SourceCode/SRL64.vhd
-Z84 F../SourceCode/SRL64.vhd
+Z135 8../SourceCode/SRL64.vhd
+Z136 F../SourceCode/SRL64.vhd
 l0
-L7
+L7 1
 VMgBfYJmmMW1B>W>Ze=cbY2
 !s100 ]Vc:Qgl<^mYnEd^@U`Y602
 R6
 33
-R7
+R122
 !i10b 1
-R8
-Z85 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|../SourceCode/SRL64.vhd|
-Z86 !s107 ../SourceCode/SRL64.vhd|
+R123
+Z137 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|../SourceCode/SRL64.vhd|
+Z138 !s107 ../SourceCode/SRL64.vhd|
 !i113 1
 R11
 R12
 Artl
+R23
+R119
 R25
-R52
-R27
-R26
+R24
 R1
 R2
 DEx4 work 5 srl64 0 22 MgBfYJmmMW1B>W>Ze=cbY2
+!i122 356
 l17
-L14
-V^[T0adMIK1I@5OY;;eY[b0
-!s100 LFiT@LzfHU;^>R0`Kj_iz2
+R130
+VMDkQ^m07G:`Ibl02FSE6J0
+!s100 h6hEC29P418`POhEOI0oU2
 R6
 33
-R7
+R122
 !i10b 1
-R8
-R85
-R86
+R123
+R137
+R138
 !i113 1
 R11
 R12
 Etbarithunit
-Z87 w1586482809
-R25
+Z139 w1619748700
+R23
 R1
 R2
+!i122 151
 R3
-Z88 8TBArithUnit.vhd
-Z89 FTBArithUnit.vhd
+Z140 8TBArithUnit.vhd
+Z141 FTBArithUnit.vhd
 l0
-L7
+L7 1
 VH?jnlGf<UDYSYk@9Scd433
 !s100 nV1D7fnIP>bl9@SHD^z]H1
 R6
 33
-R20
+Z142 !s110 1619755488
 !i10b 1
-Z90 !s108 1586495016.000000
-Z91 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=time,-cmd,msg|TBArithUnit.vhd|
-Z92 !s107 TBArithUnit.vhd|
+Z143 !s108 1619755488.000000
+Z144 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|TBArithUnit.vhd|
+Z145 !s107 TBArithUnit.vhd|
 !i113 1
 R11
 R12
 Abehavioural
-R25
+R23
 R1
 R2
-R39
+Z146 DEx4 work 11 tbarithunit 0 22 H?jnlGf<UDYSYk@9Scd433
+!i122 151
 l37
-L11
-VCYe9MmTMLS48EGLCd4jQl2
-!s100 ]<lJYY04fc_H;d5AMi2jg3
+L11 162
+VY5T9;]49VlA33eSZeh^8T0
+!s100 V6A7C>ECk^N83PzMjgUR63
 R6
 33
-!s110 1586495017
+R142
 !i10b 1
-R90
-R91
-R92
+R143
+R144
+R145
+!i113 1
+R11
+R12
+Etbarithunit_cskip
+Z147 w1619760349
+R23
+R1
+R2
+!i122 374
+R3
+Z148 8C:/Users/Ben/Documents/ExU/Simulation/TBArithUnit_CSkip.vhd
+Z149 FC:/Users/Ben/Documents/ExU/Simulation/TBArithUnit_CSkip.vhd
+l0
+L7 1
+Vha=]5P<BFUkk7IED;aonP3
+!s100 L<K5WJ]b<`mlV@9b@?EX`1
+R6
+33
+R44
+!i10b 1
+R45
+Z150 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Ben/Documents/ExU/Simulation/TBArithUnit_CSkip.vhd|
+Z151 !s107 C:/Users/Ben/Documents/ExU/Simulation/TBArithUnit_CSkip.vhd|
+!i113 1
+R11
+R12
+Abehavioural
+R23
+R1
+R2
+R86
+!i122 374
+l41
+L11 166
+V81j0H;:]b5F<K:]:h_<Jn1
+!s100 7A9LEH7FoMJ^O[]g[Nk`O3
+R6
+33
+R44
+!i10b 1
+R45
+R150
+R151
+!i113 1
+R11
+R12
+Etbcarryskip
+Z152 w1619760098
+Z153 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+R23
+R1
+R2
+!i122 372
+R3
+Z154 8C:/Users/Ben/Documents/ExU/Simulation/TB_Carry_Skip.vhd
+Z155 FC:/Users/Ben/Documents/ExU/Simulation/TB_Carry_Skip.vhd
+l0
+L8 1
+V`k0DQ;EnlYP<j?9ez<JIn2
+!s100 A>:KolBCPNhK^ZdC;dEik3
+R6
+33
+R44
+!i10b 1
+R45
+Z156 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Ben/Documents/ExU/Simulation/TB_Carry_Skip.vhd|
+Z157 !s107 C:/Users/Ben/Documents/ExU/Simulation/TB_Carry_Skip.vhd|
+!i113 1
+R11
+R12
+Abehavioural
+R153
+R23
+R1
+R2
+DEx4 work 11 tbcarryskip 0 22 `k0DQ;EnlYP<j?9ez<JIn2
+!i122 372
+l32
+L12 142
+VNmd^aBIciGRZ<4Gnf_4062
+!s100 9<b<_6FgLa[jj9^Cc0gEb0
+R6
+33
+R44
+!i10b 1
+R45
+R156
+R157
 !i113 1
 R11
 R12
 Etbexecunit
-Z93 w1586549390
-R25
+Z158 w1597005773
+R23
 R1
 R2
+!i122 68
 R3
-Z94 8TBExecUnit.vhd
-Z95 FTBExecUnit.vhd
+Z159 8C:/Users/Ben/Documents/ExU/Simulation/TBExecUnit.vhd
+Z160 FC:/Users/Ben/Documents/ExU/Simulation/TBExecUnit.vhd
 l0
-L7
+L7 1
 Vm7:<5UP5jCmncYPagXIU20
 !s100 <P7hWo_VBefO:Ji_UFi]m0
 R6
 33
-R43
+Z161 !s110 1619748633
 !i10b 1
-Z96 !s108 1586549940.000000
-Z97 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=time,-cmd,msg|TBExecUnit.vhd|
-Z98 !s107 TBExecUnit.vhd|
+Z162 !s108 1619748633.000000
+Z163 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Ben/Documents/ExU/Simulation/TBExecUnit.vhd|
+Z164 !s107 C:/Users/Ben/Documents/ExU/Simulation/TBExecUnit.vhd|
 !i113 1
 R11
 R12
 Abehavioural
-R25
+R23
 R1
 R2
-R58
+R106
+!i122 68
 l47
-L11
+Z165 L11 171
 V^<ZF6o3V6UWSCRCTEka9k0
 !s100 FD7G8OJnWKgA5^jIKhWI=3
 R6
 33
-R43
+R161
 !i10b 1
-R96
-R97
-R98
+R162
+R163
+R164
+!i113 1
+R11
+R12
+Etbexecunit_cskip
+Z166 w1619761217
+R23
+R1
+R2
+!i122 375
+R3
+Z167 8C:/Users/Ben/Documents/ExU/Simulation/TBExecUnit_CSkip.vhd
+Z168 FC:/Users/Ben/Documents/ExU/Simulation/TBExecUnit_CSkip.vhd
+l0
+L7 1
+VUUIG0faXn?zafVB7c>oU_1
+!s100 I7OfE]FONnj_iUa`K@R[72
+R6
+33
+R44
+!i10b 1
+R45
+Z169 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Ben/Documents/ExU/Simulation/TBExecUnit_CSkip.vhd|
+Z170 !s107 C:/Users/Ben/Documents/ExU/Simulation/TBExecUnit_CSkip.vhd|
+!i113 1
+R11
+R12
+Abehavioural
+R23
+R1
+R2
+DEx4 work 16 tbexecunit_cskip 0 22 UUIG0faXn?zafVB7c>oU_1
+!i122 375
+l47
+R165
+VWfW0d5?d8I3KH[Z3Oz_D=0
+!s100 KTY>SNGh]@A:5l_B]KCUa1
+R6
+33
+R44
+!i10b 1
+R45
+R169
+R170
 !i113 1
 R11
 R12
 Etblogicunit
-Z99 w1586136346
-R25
+R158
+R23
 R1
 R2
+!i122 71
 R3
-Z100 8TBLogicUnit.vhd
-Z101 FTBLogicUnit.vhd
+Z171 8C:/Users/Ben/Documents/ExU/Simulation/TBLogicUnit.vhd
+Z172 FC:/Users/Ben/Documents/ExU/Simulation/TBLogicUnit.vhd
 l0
-L7
+L7 1
 V:aF1E7<jIb_KJZ4nYJZ[i3
 !s100 1CFj:XSGgajROW^G:?_><3
 R6
 33
-Z102 !s110 1586324336
+R161
 !i10b 1
-Z103 !s108 1586324336.000000
-Z104 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=time,-cmd,msg|TBLogicUnit.vhd|
-Z105 !s107 TBLogicUnit.vhd|
+R162
+Z173 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Ben/Documents/ExU/Simulation/TBLogicUnit.vhd|
+Z174 !s107 C:/Users/Ben/Documents/ExU/Simulation/TBLogicUnit.vhd|
 !i113 1
 R11
 R12
 Abehavioural
-R25
+R23
 R1
 R2
-R50
+R95
+!i122 71
 l47
-L11
+L11 114
 VTz3>OimX>AT85m7lR[5EJ2
 !s100 OFl[HDEc9?OZ5EcW1LI==3
 R6
 33
-R102
+R161
 !i10b 1
-R103
-R104
-R105
+R162
+R173
+R174
 !i113 1
 R11
 R12
 Etbshiftunit
-Z106 w1586414697
-R25
+R158
+R23
 R1
 R2
+!i122 72
 R3
-Z107 8TBShiftUnit.vhd
-Z108 FTBShiftUnit.vhd
+Z175 8C:/Users/Ben/Documents/ExU/Simulation/TBShiftUnit.vhd
+Z176 FC:/Users/Ben/Documents/ExU/Simulation/TBShiftUnit.vhd
 l0
-L7
+L7 1
 VQgL_T^5iA^@;gfA8o_n]L1
 !s100 8n8UVU;CcCIGeC5lM]kjm3
 R6
 33
-R71
+R161
 !i10b 1
-Z109 !s108 1586481342.000000
-Z110 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=time,-cmd,msg|TBShiftUnit.vhd|
-Z111 !s107 TBShiftUnit.vhd|
+R162
+Z177 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Ben/Documents/ExU/Simulation/TBShiftUnit.vhd|
+Z178 !s107 C:/Users/Ben/Documents/ExU/Simulation/TBShiftUnit.vhd|
 !i113 1
 R11
 R12
 Abehavioural
-R25
+R23
 R1
 R2
-R55
+R103
+!i122 72
 l36
-L11
+L11 110
 VkO9=JbE]H^]L5QLiSH`V;2
 !s100 9n^VH3PdTk7W:d:=VdjF:1
 R6
 33
-R71
+R161
 !i10b 1
-R109
-R110
-R111
+R162
+R177
+R178
 !i113 1
 R11
 R12
 Ctimeausim
-R36
-R37
-R14
-R15
-R16
-R17
+eTbArithUnit
+R85
+R21
+R22
 R24
-R38
 R25
+R32
+DAx4 work 11 tbarithunit 11 behavioural 22 CYe9MmTMLS48EGLCd4jQl2
+R23
 R1
 R2
-R39
-R40
+R146
+!i122 40
+w1619748331
 R3
-R41
-R42
+8C:/Users/Ben/Documents/ExU/Simulation/ConfigExU.vhd
+FC:/Users/Ben/Documents/ExU/Simulation/ConfigExU.vhd
 l0
-L22
-Vc@j0<]>]2McV@A_In0?[D3
+L22 1
+V1:IXZ:;H=PUA]08SV9]Fg2
 !s100 R2Kc^HfY?<C>3UmQcD?gm0
 R6
-33
-R43
+32
+!s110 1619748447
 !i10b 1
-R44
-R45
-R46
+!s108 1619748447.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ben/Documents/ExU/Simulation/ConfigExU.vhd|
+!s107 C:/Users/Ben/Documents/ExU/Simulation/ConfigExU.vhd|
 !i113 1
-R11
+Z179 o-work work -2002 -explicit
 R12
 Ctimelusim
-R47
-R37
-R48
-R49
-R25
+R91
+R85
+R92
+R93
+R94
 R1
-R2
-R50
+R37
+R95
+R96
 R40
-R3
-R41
-R42
+R87
+R88
 l0
 L9
 VO<6AYNS4`JjF91RlLj2hZ3
 !s100 =QG_cHF72>cU[iG=]?O@l3
-R6
+R39
 33
-R43
+R97
 !i10b 1
-R44
-R45
-R46
+R98
+R89
+R90
 !i113 1
 R11
 R12
 Ctimesusim
-R51
-R37
-R52
-R53
-R54
-R25
+R99
+R85
+R100
+R101
+R102
+R94
 R1
-R2
-R55
+R37
+R103
+R96
 R40
-R3
-R41
-R42
+R87
+R88
 l0
 L35
 Vd1dc=o[zVBoi2zOzJK:E_1
 !s100 fI=6dXBjP5h[oE8Q=:`]L1
-R6
+R39
 33
-R43
+R97
 !i10b 1
-R44
-R45
-R46
+R98
+R89
+R90
 !i113 1
 R11
 R12
 Ctimexusim
-R56
-R37
-R14
-R15
-R16
-R17
+R104
+R85
+R34
 R35
-R57
-R25
+R36
+R38
+R67
+R105
+R94
 R1
-R2
-R58
+R37
+R106
+R96
 R40
-R3
-R41
-R42
+R87
+R88
 l0
 L50
 V0ZSeI<he[8DZ`2QbXm01P3
 !s100 =9G7[WK]Q[lRJKKL8nTZ81
-R6
+R39
 33
 !s110 1586549942
 !i10b 1
-R44
-R45
-R46
+R98
+R89
+R90
 !i113 1
 R11
 R12
