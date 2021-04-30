@@ -13,11 +13,11 @@
 --End Configuration TimeLUSim;
 
 -- Arithmetic Unit Configurations
-Configuration FuncAUSim of TbArithUnit is
-	for behavioural
-		for DUT : ArithUnit use entity work.ArithUnit(rtl); end for;
-	end for;
-End Configuration FuncAUSim;
+--Configuration FuncAUSim of TbArithUnit is
+--	for behavioural
+--		for DUT : ArithUnit use entity work.ArithUnit(rtl); end for;
+--	end for;
+--End Configuration FuncAUSim;
 
 --Configuration TimeAUSim of TbArithUnit is
 --	for behavioural
@@ -52,3 +52,10 @@ End Configuration FuncAUSim;
 --		for DUT : ExecUnit use entity work.ExecUnit(structure); end for;
 --	end for;
 --End Configuration TimeXUSim;
+
+-- for carry-skip adder w/ ExU
+Configuration TimeXUSim of TBExecUnit_CSkip is
+	for behavioural
+		for DUT : ExecUnit use entity work.ExecUnit_CSkip(structure); end for;
+	end for;
+End Configuration TimeXUSim;

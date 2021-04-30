@@ -13,7 +13,7 @@ Architecture behavioural of TbExecUnit_CSkip is
 	Constant ClockPeriod : time := 2 ns;
 	Constant ResetPeriod : time := 5 ns;
 	Constant PreStimTime : time := 1 ns;
-	Constant PostStimTime : time := 50 ns; -- was originally set at 30ns
+	Constant PostStimTime : time := 30 ns; -- carry-skip adder meets original post-stim time set!!!
 	
 	Signal Sstable, Squiet : boolean := false;
 

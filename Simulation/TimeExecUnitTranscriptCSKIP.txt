@@ -1,0 +1,98 @@
+# transcript on
+#----------------------------------------------------------------------------------------------------------
+# compile
+#----------------------------------------------------------------------------------------------------------
+# vcom -work work -2008 -explicit -stats=time,-cmd,msg ModelSim/ExU_slow.vho
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:04:16 on Apr 30,2021
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Compiling entity ExecUnit_CSkip
+# -- Compiling architecture structure of ExecUnit_CSkip
+# End time: 00:04:17 on Apr 30,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vcom -work work -2008 -explicit -stats=time,-cmd,msg TBExecUnit_CSkip.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:04:17 on Apr 30,2021
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TbExecUnit_CSkip
+# -- Compiling architecture behavioural of TbExecUnit_CSkip
+# End time: 00:04:17 on Apr 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -work work -2008 -explicit -stats=time,-cmd,msg ConfigExU.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:04:17 on Apr 30,2021
+# -- Loading package STANDARD
+# -- Compiling configuration TimeXUSim
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading entity TbExecUnit_CSkip
+# -- Loading architecture behavioural of TbExecUnit_CSkip
+# -- Loading entity ExecUnit
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Loading entity ExecUnit_CSkip
+# End time: 00:04:17 on Apr 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+#----------------------------------------------------------------------------------------------------------
+# Start the simulation
+#----------------------------------------------------------------------------------------------------------
+# vsim -t 100ps -gui work.TimeXUSim -sdftyp ../DUT=ModelSim/ExU_slow.sdo
+# vsim -t 100ps -gui work.TimeXUSim -sdftyp "../DUT=ModelSim/ExU_slow.sdo" 
+# Start time: 00:04:17 on Apr 30,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading work.timexusim
+# Loading work.tbexecunit_cskip(behavioural)
+# Loading work.execunit_cskip(structure)
+# Loading work.hard_block(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading instances from ModelSim/ExU_slow.sdo
+# Loading timing data from ModelSim/ExU_slow.sdo
+# ** Warning: Design size of 183701 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tbexecunit_cskip File: TBExecUnit_CSkip.vhd
+# transcript off
+#----------------------------------------------------------------------------------------------------------
+# Simulation Run
+# default was 7570ns
+#----------------------------------------------------------------------------------------------------------
+# restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading instances from ModelSim/ExU_slow.sdo
+# Loading timing data from ModelSim/ExU_slow.sdo
+# ** Warning: Design size of 92803 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tbexecunit_cskip File: TBExecUnit_CSkip.vhd
+# run 7200 ns 
+# ** Note: Using TestVectors from file ExecUnit00.tvs
+#    Time: 15 ns  Iteration: 0  Instance: /tbexecunit_cskip
+# ** Note: Simulation Completed
+#    Time: 7153 ns  Iteration: 0  Instance: /tbexecunit_cskip
+# transcript off
